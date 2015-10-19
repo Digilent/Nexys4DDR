@@ -9,7 +9,7 @@ if {[info exists ::create_path]} {
 puts "INFO: Creating new project in $dest_dir"
 
 # Set the reference directory for source file relative paths (by default the value is script directory path)
-set proj_name "Music_Looper"
+set proj_name "Music_Looper_Demo"
 
 # Set the reference directory for source file relative paths (by default the value is script directory path)
 set origin_dir ".."
