@@ -1,0 +1,337 @@
+MIG: 09:45:40 : Running synthesis.xit
+MIG: 09:46:43 : Running synthesis.xit
+MIG: 09:46:43 : ################# RUNNING MIG BATCH ###################
+MIG: 09:46:43 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0
+MIG: 09:46:43 : synp_flow:  -- synthesis_mode: Other
+MIG: 09:46:43 : outputDirectory: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/_tmp/
+MIG: 09:46:43 : vivado_mode: xpg_pa
+MIG: 09:46:43 :  locked false  
+MIG: 09:46:43 : HDL Language: VHDL
+MIG: 09:46:43 : compInfo: false
+MIG: 09:46:43 : Vivado Options xc7a100t csg324 -1
+MIG: 09:46:43 : 1: xc7a100t 2: csg324 3: -1
+MIG: 09:46:43 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 09:46:43 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 09:46:43 : I am in catch area
+MIG: 09:46:43 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.out ... 
+MIG: 09:46:51 : XML_INPUT_FILE: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 09:46:51 : Component_Name: mig_7series_0
+MIG: 09:46:51 : Moving mig_7series_0 ...
+MIG: 09:46:51 : Moving mig_7series_0.vho ...
+MIG: 09:46:51 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 09:46:52 : Running vhdl_synth_rpr.xit
+MIG: 09:46:52 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 09:46:52 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 09:46:52 : Running implementation.xit
+MIG: 09:46:53 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 09:46:53 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:30:20 : Running synthesis.xit
+MIG: 17:30:20 : ################# RUNNING MIG BATCH ###################
+MIG: 17:30:20 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0
+MIG: 17:30:20 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:30:20 : outputDirectory: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/_tmp/
+MIG: 17:30:20 : vivado_mode: xpg_pa
+MIG: 17:30:20 :  locked false  
+MIG: 17:30:20 : HDL Language: VHDL
+MIG: 17:30:20 : compInfo: false
+MIG: 17:30:20 : Vivado Options xc7a100t csg324 -1
+MIG: 17:30:20 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:30:20 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 17:30:20 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 17:30:20 : I am in catch area
+MIG: 17:30:20 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:30:30 : XML_INPUT_FILE: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 17:30:30 : Component_Name: mig_7series_0
+MIG: 17:30:30 : Moving mig_7series_0 ...
+MIG: 17:30:30 : Moving mig_7series_0.vho ...
+MIG: 17:30:30 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:30:30 : Running vhdl_synth_rpr.xit
+MIG: 17:30:30 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:30:30 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:30:31 : Running implementation.xit
+MIG: 17:30:31 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:30:31 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:50:10 : Running synthesis.xit
+MIG: 12:50:10 : ################# RUNNING MIG BATCH ###################
+MIG: 12:50:10 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0
+MIG: 12:50:10 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:50:10 : outputDirectory: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/_tmp/
+MIG: 12:50:10 : vivado_mode: xpg_pa
+MIG: 12:50:10 :  locked false  
+MIG: 12:50:10 : HDL Language: VHDL
+MIG: 12:50:10 : compInfo: false
+MIG: 12:50:10 : Vivado Options xc7a100t csg324 -1
+MIG: 12:50:10 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:50:10 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 12:50:10 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 12:50:10 : I am in catch area
+MIG: 12:50:10 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/xil_txt.out ... 
+MIG: 12:50:20 : XML_INPUT_FILE: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 12:50:20 : Component_Name: mig_7series_0
+MIG: 12:50:20 : Moving mig_7series_0 ...
+MIG: 12:50:20 : Moving mig_7series_0.vho ...
+MIG: 12:50:20 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:50:20 : Running vhdl_synth_rpr.xit
+MIG: 12:50:20 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:50:20 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:50:21 : Running implementation.xit
+MIG: 12:50:21 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:50:21 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:59:25 : Running synthesis.xit
+MIG: 12:59:26 : ################# RUNNING MIG BATCH ###################
+MIG: 12:59:26 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0
+MIG: 12:59:26 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:59:26 : outputDirectory: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/_tmp/
+MIG: 12:59:26 : vivado_mode: xpg_pa
+MIG: 12:59:26 :  locked false  
+MIG: 12:59:26 : HDL Language: VHDL
+MIG: 12:59:26 : compInfo: false
+MIG: 12:59:26 : Vivado Options xc7a100t csg324 -1
+MIG: 12:59:26 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:59:26 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 12:59:26 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 12:59:26 : I am in catch area
+MIG: 12:59:26 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/xil_txt.out ... 
+MIG: 12:59:35 : XML_INPUT_FILE: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 12:59:35 : Component_Name: mig_7series_0
+MIG: 12:59:35 : Moving mig_7series_0 ...
+MIG: 12:59:35 : Moving mig_7series_0.vho ...
+MIG: 12:59:35 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:59:58 : Running implementation.xit
+MIG: 12:59:58 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:59:58 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:05:01 : Running synthesis.xit
+MIG: 13:05:01 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:05:01 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:05:01 : Running vhdl_synth_rpr.xit
+MIG: 13:05:01 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:05:01 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:05:01 : Running implementation.xit
+MIG: 13:05:01 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:05:01 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:08:32 : xml_input_file: mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 13:08:32 : xml_input_file: mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 13:08:32 : xml_input_file: mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: mig_b.prj
+MIG: 13:08:32 : xml_input_file: mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: mig_b.prj
+MIG: 13:08:32 : xml_input_file: ..\..\..\..\..\src\ip\mig_7series_0\mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 13:08:32 : xml_input_file: ..\..\..\..\..\src\ip\mig_7series_0\mig_b.prj
+MIG: 13:08:32 : Absolute path of xml_input_file: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_b.prj
+MIG: 13:08:32 : In updateAllModelParams
+MIG: 13:08:32 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:08:32 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:08:32 : XGUI hdlLanguage: VHDL
+MIG: 13:08:32 : xgui vivado_mode: xpg_pa
+MIG: 13:08:32 : xgui hdlLanguage: VHDL -- hdlExt: vhd
+MIG: 13:08:32 : Reading C:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper_Demo/src/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.vhd ...
+MIG: 13:08:33 : 
+MIG: 13:08:33 : Inside fn mem: DDR2
+MIG: 13:08:33 : QDRII+ Inside fn ui: 75000000
+MIG: 13:08:33 : cntrl:  memtype: DDR2
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  polarity_value: 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : cntrl:  memtype: DDR2
+MIG: 13:08:33 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 13:08:33 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 13:08:33 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: ECC ==> OFF
+MIG: 13:08:33 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 13:08:33 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> 16
+MIG: 13:08:33 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 13:08:33 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 13:08:33 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 13:08:33 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 13:08:33 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 13:08:33 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 13:08:33 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 13:08:33 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 13:08:33 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 13:08:33 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 13:08:33 :  Invalid Param: DDR2_CL ==> 5
+MIG: 13:08:33 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 13:08:33 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 13:08:33 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 4999
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 6
+MIG: 13:08:33 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 13:08:33 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 13:08:33 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 13:08:33 :  Invalid Param: DDR2_MMCM_MULT_F ==> 15
+MIG: 13:08:33 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 13:08:33 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 13:08:33 :  Invalid Param: DDR2_tPRDI ==> 1000000
+MIG: 13:08:33 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 13:08:33 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 13:08:33 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 13:08:33 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 13:08:33 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 13:08:33 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 13:08:33 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 13:08:33 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 13:08:33 :  Invalid Param: DDR2_tZQI ==> 128000000
+MIG: 13:08:33 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 13:08:33 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 13:08:33 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 13:08:33 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> "1111"
+MIG: 13:08:33 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_CTL_B0 ==> "0101"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_CTL_B1 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_CTL_B2 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_CTL_B3 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_CTL_B4 ==> "0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_PHY_0_BITLANES ==> X"FFC3F7FFF3FE"
+MIG: 13:08:33 :  Invalid Param: DDR2_PHY_1_BITLANES ==> X"000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_PHY_2_BITLANES ==> X"000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_CK_BYTE_MAP ==> X"000000000000000000000000000000000003"
+MIG: 13:08:33 :  Invalid Param: DDR2_ADDR_MAP ==> X"00000000001003301A01903203A034018036012011017015"
+MIG: 13:08:33 :  Invalid Param: DDR2_BANK_MAP ==> X"01301601B"
+MIG: 13:08:33 :  Invalid Param: DDR2_CAS_MAP ==> X"039"
+MIG: 13:08:33 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> X"00"
+MIG: 13:08:33 :  Invalid Param: DDR2_CKE_MAP ==> X"000000000000000000000038"
+MIG: 13:08:33 :  Invalid Param: DDR2_ODT_MAP ==> X"000000000000000000000035"
+MIG: 13:08:33 :  Invalid Param: DDR2_CS_MAP ==> X"000000000000000000000000000037"
+MIG: 13:08:33 :  Invalid Param: DDR2_PARITY_MAP ==> X"000"
+MIG: 13:08:33 :  Invalid Param: DDR2_RAS_MAP ==> X"014"
+MIG: 13:08:33 :  Invalid Param: DDR2_WE_MAP ==> X"03B"
+MIG: 13:08:33 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> X"000000000000000000000000000000000200"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA0_MAP ==> X"008004009007005001006003"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA1_MAP ==> X"022028020024027025026021"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA2_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA3_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA4_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA5_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA6_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA7_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA8_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA9_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA10_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA11_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA12_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA13_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA14_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA15_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA16_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA17_MAP ==> X"000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_MASK0_MAP ==> X"000000000000000000000029002"
+MIG: 13:08:33 :  Invalid Param: DDR2_MASK1_MAP ==> X"000000000000000000000000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> "00000001"
+MIG: 13:08:33 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> "00000000"
+MIG: 13:08:33 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 13:08:33 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 13:08:33 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 13:08:33 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 13:08:33 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 13:08:33 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 13:08:33 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 13:08:33 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> X"0000"
+MIG: 13:08:33 :  Invalid Param: DDR2_CALIB_COL_ADD ==> X"000"
+MIG: 13:08:33 :  Invalid Param: DDR2_CALIB_BA_ADD ==> "000"
+MIG: 13:08:33 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 13:08:33 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 13:08:33 :  Invalid Param: DDR2_IODELAY_GRP1 ==> "MIG_7SERIES_0_IODELAY_MIG1"
+MIG: 13:08:33 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 13:08:33 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 13:08:33 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 13:08:33 :  Invalid Param: DDR2_FPGA_SPEED_GRADE ==> 1
+MIG: 13:08:33 :  Invalid Param: DDR2_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 13:08:33 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 13:08:33 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 13:08:33 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 13:08:33 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 13:08:33 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 13:08:33 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 13:08:33 :  Invalid Param: DDR2_tCK ==> 3333
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 13:08:33 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 13:08:33 : 
+MIG: 13:08:33 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : 
+MIG: 13:08:33 : Same Interface
+MIG: 13:33:17 : Running synthesis.xit
+MIG: 13:33:17 : ################# RUNNING MIG BATCH ###################
+MIG: 13:33:17 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper/src/ip/mig_7series_0
+MIG: 13:33:17 : synp_flow:  -- synthesis_mode: Other
+MIG: 13:33:17 : outputDirectory: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper/src/ip/mig_7series_0/_tmp/
+MIG: 13:33:17 : vivado_mode: xpg_pa
+MIG: 13:33:17 :  locked false  
+MIG: 13:33:17 : HDL Language: VHDL
+MIG: 13:33:17 : compInfo: false
+MIG: 13:33:17 : Vivado Options xc7a100t csg324 -1
+MIG: 13:33:17 : 1: xc7a100t 2: csg324 3: -1
+MIG: 13:33:17 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 13:33:17 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 13:33:17 : I am in catch area
+MIG: 13:33:17 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper/src/ip/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper/src/ip/mig_7series_0/xil_txt.out ... 
+MIG: 13:33:25 : XML_INPUT_FILE: c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Nexys4DDR/Projects/Music_Looper/src/ip/mig_7series_0/mig_b.prj
+MIG: 13:33:25 : Component_Name: mig_7series_0
+MIG: 13:33:25 : Moving mig_7series_0 ...
+MIG: 13:33:25 : Moving mig_7series_0.vho ...
+MIG: 13:33:25 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 13:33:26 : Running vhdl_synth_rpr.xit
+MIG: 13:33:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:33:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 13:33:26 : Running implementation.xit
+MIG: 13:33:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:33:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 

@@ -1,0 +1,111 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Mon Jun 29 12:51:40 2015
+| Host         : Sparky running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Square_Root'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Square_Root (xilinx.com:ip:cordic:6.0) from (Rev. 4) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Tue Dec 09 14:56:46 2014
+| Host         : WK86 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Square_Root'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Square_Root from xilinx.com:ip:cordic:4.0 to xilinx.com:ip:cordic:6.0 (Rev. 4)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Warnings
+-----------
+
+WARNING: Migration from v4.0 also requires pin name changes. See the core documentation for full instructions on migration.
+
+3. Upgrade messages
+-------------------
+
+Removed parameter ND
+Removed parameter RDY
+Removed parameter X_OUT
+Removed parameter Y_OUT
+Removed parameter Phase_Output
+Removed parameter Register_Inputs
+Removed parameter Register_Outputs
+Renamed parameter CE to ACLKEN
+Renamed parameter SCLR to ARESETN
+Added parameter cartesian_has_tuser with value false
+Added parameter cartesian_tuser_width with value 1
+Added parameter cartesian_has_tlast with value false
+Added parameter phase_has_tuser with value false
+Added parameter phase_tuser_width with value 1
+Added parameter phase_has_tlast with value false
+Added parameter flow_control with value NonBlocking
+Added parameter optimize_goal with value Resources
+Added parameter out_tready with value false
+Added parameter out_tlast_behv with value Null
+
+4. Customization warnings
+-------------------------
+
+WARNING: Attempt to set value 'Resources' on disabled parameter 'optimize_goal' is ignored for 'Square_Root'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:cordic:6.0 -user_name Square_Root
+set_property -dict "\
+  CONFIG.ACLKEN false \
+  CONFIG.Input_Width 26 \
+  CONFIG.Architectural_Configuration Parallel \
+  CONFIG.phase_has_tuser false \
+  CONFIG.Iterations 0 \
+  CONFIG.Compensation_Scaling No_Scale_Compensation \
+  CONFIG.Pipelining_Mode Maximum \
+  CONFIG.cartesian_has_tlast false \
+  CONFIG.out_tready false \
+  CONFIG.Phase_Format Radians \
+  CONFIG.out_tlast_behv Null \
+  CONFIG.flow_control NonBlocking \
+  CONFIG.Functional_Selection Square_Root \
+  CONFIG.Component_Name Square_Root \
+  CONFIG.Round_Mode Truncate \
+  CONFIG.Precision 0 \
+  CONFIG.Coarse_Rotation false \
+  CONFIG.cartesian_has_tuser false \
+  CONFIG.Output_Width 14 \
+  CONFIG.ARESETN false \
+  CONFIG.Data_Format UnsignedInteger \
+  CONFIG.optimize_goal Resources \
+  CONFIG.phase_has_tlast false \
+  CONFIG.cartesian_tuser_width 1 \
+  CONFIG.phase_tuser_width 1 " [get_ips Square_Root]
+
+

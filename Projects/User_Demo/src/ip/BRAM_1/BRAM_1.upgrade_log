@@ -1,0 +1,108 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Mon Jun 29 12:51:35 2015
+| Host         : Sparky running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'BRAM_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of BRAM_1 (xilinx.com:ip:blk_mem_gen:8.2) from (Rev. 1) to (Rev. 5)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+WARNING: The normal upgrade process failed due to validation failures in the given configuration . Attempting partial upgrade.
+This process will attempt to set as many user parameters as possible.Please check the parameters whose values were not applied
+
+WARNING: Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
+Validation failed for parameter 'Coe File(Coe_File)' with value 'no_coe_file_loaded' for IP 'BRAM_1'. No COE file loaded
+.Restoring to an old valid value of 'false'
+
+WARNING: An attempt to modify the value of disabled parameter 'Coe_File' from 'no_coe_file_loaded' to '../../../../../Nexys4DDRUserDemoPort/Nexys4_all.coe' has been ignored for IP 'BRAM_1'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:blk_mem_gen:8.2 -user_name BRAM_1
+set_property -dict "\
+  CONFIG.Remaining_Memory_Locations 0 \
+  CONFIG.Reset_Memory_Latch_A false \
+  CONFIG.Reset_Memory_Latch_B false \
+  CONFIG.Enable_32bit_Address false \
+  CONFIG.softecc false \
+  CONFIG.Register_PortA_Output_of_Memory_Primitives false \
+  CONFIG.Operating_Mode_A WRITE_FIRST \
+  CONFIG.AXI_Slave_Type Memory_Slave \
+  CONFIG.Operating_Mode_B WRITE_FIRST \
+  CONFIG.Port_A_Clock 100 \
+  CONFIG.Reset_Type SYNC \
+  CONFIG.Reset_Priority_A CE \
+  CONFIG.Reset_Priority_B CE \
+  CONFIG.Use_RSTB_Pin false \
+  CONFIG.register_portb_output_of_softecc false \
+  CONFIG.ecctype No_ECC \
+  CONFIG.MEM_FILE no_mem_loaded \
+  CONFIG.Port_A_Enable_Rate 100 \
+  CONFIG.use_bram_block Stand_Alone \
+  CONFIG.Use_Byte_Write_Enable false \
+  CONFIG.Use_AXI_ID false \
+  CONFIG.AXI_Type AXI4_Full \
+  CONFIG.AXI_ID_Width 4 \
+  CONFIG.Coe_File ../../../../../Nexys4DDRUserDemoPort/Nexys4_all.coe \
+  CONFIG.Additional_Inputs_for_Power_Estimation false \
+  CONFIG.Use_REGCEA_Pin false \
+  CONFIG.Port_A_Write_Rate 0 \
+  CONFIG.Write_Width_A 12 \
+  CONFIG.Memory_Type Single_Port_ROM \
+  CONFIG.register_porta_input_of_softecc false \
+  CONFIG.Write_Width_B 12 \
+  CONFIG.Pipeline_Stages 0 \
+  CONFIG.Error_Injection_Type Single_Bit_Error_Injection \
+  CONFIG.Write_Depth_A 131072 \
+  CONFIG.Algorithm Minimum_Area \
+  CONFIG.Assume_Synchronous_Clk false \
+  CONFIG.Use_Error_Injection_Pins false \
+  CONFIG.Register_PortB_Output_of_Memory_Primitives false \
+  CONFIG.EN_ECC_PIPE false \
+  CONFIG.Disable_Out_of_Range_Warnings false \
+  CONFIG.Register_PortB_Output_of_Memory_Core false \
+  CONFIG.CTRL_ECC_ALGO NONE \
+  CONFIG.EN_SLEEP_PIN false \
+  CONFIG.Interface_Type Native \
+  CONFIG.Component_Name BRAM_1 \
+  CONFIG.Use_RSTA_Pin false \
+  CONFIG.Byte_Size 9 \
+  CONFIG.Port_B_Enable_Rate 0 \
+  CONFIG.Enable_A Always_Enabled \
+  CONFIG.Enable_B Always_Enabled \
+  CONFIG.Load_Init_File true \
+  CONFIG.Port_B_Write_Rate 0 \
+  CONFIG.Fill_Remaining_Memory_Locations false \
+  CONFIG.Collision_Warnings ALL \
+  CONFIG.Register_PortA_Output_of_Memory_Core false \
+  CONFIG.Disable_Collision_Warnings false \
+  CONFIG.Output_Reset_Value_A 0 \
+  CONFIG.Output_Reset_Value_B 0 \
+  CONFIG.Port_B_Clock 0 \
+  CONFIG.Primitive 8kx2 \
+  CONFIG.Use_REGCEB_Pin false \
+  CONFIG.Read_Width_A 12 \
+  CONFIG.ECC false \
+  CONFIG.Read_Width_B 12 " [get_ips BRAM_1]
+
+

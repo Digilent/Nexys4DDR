@@ -1,0 +1,33 @@
+MIG: 16:07:18 : Running synthesis.xit
+MIG: 16:09:29 : Running synthesis.xit
+MIG: 16:09:30 : IGN:     <ModuleName>ddr</ModuleName> <==>     <ModuleName>ddr</ModuleName> 
+MIG: 16:09:30 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:09:30 : Running vhdl_synth_rpr.xit
+MIG: 16:09:30 : IGN:     <ModuleName>ddr</ModuleName> <==>     <ModuleName>ddr</ModuleName> 
+MIG: 16:09:30 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:41:04 : Running synthesis.xit
+MIG: 16:41:04 : ################# RUNNING MIG BATCH ###################
+MIG: 16:41:04 : Writing IN file for 'ddr'...compDirPath: c:/Xilinx/Vivado/2015.1/data/ip/xilinx/mig_7series_v2_3... instDirPath: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_User_Demo/src/ip/ddr
+MIG: 16:41:04 : synp_flow:  -- synthesis_mode: Other
+MIG: 16:41:04 : outputDirectory: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_User_Demo/src/ip/ddr/_tmp/
+MIG: 16:41:04 : vivado_mode: xpg_pa
+MIG: 16:41:04 :  locked false  
+MIG: 16:41:04 : HDL Language: VHDL
+MIG: 16:41:04 : compInfo: false
+MIG: 16:41:04 : Vivado Options xc7a100t csg324 -1
+MIG: 16:41:04 : 1: xc7a100t 2: csg324 3: -1
+MIG: 16:41:04 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe
+MIG: 16:41:04 : xilinx_path: C:/Xilinx/Vivado/2015.1/ids_lite/ISE
+MIG: 16:41:04 : I am in catch area
+MIG: 16:41:04 : Running C:/Xilinx/Vivado/2015.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_3/bin/nt64/mig.exe -cg_exc_inp c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_User_Demo/src/ip/ddr/xil_txt.in -cg_exc_out c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_User_Demo/src/ip/ddr/xil_txt.out ... 
+MIG: 16:41:13 : XML_INPUT_FILE: c:/Users/Nate/Desktop/Nexys4DDR/Projects/Nexys4DDR_User_Demo/src/ip/ddr/ddr/mig.prj
+MIG: 16:41:13 : Component_Name: ddr
+MIG: 16:41:13 : Moving ddr ...
+MIG: 16:41:13 : Moving ddr.vho ...
+MIG: 16:41:13 : Moving ddr_xmdf.tcl ...
+MIG: 16:41:14 : Running vhdl_synth_rpr.xit
+MIG: 16:41:14 : IGN:     <ModuleName>ddr</ModuleName> <==>     <ModuleName>ddr</ModuleName> 
+MIG: 16:41:14 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:41:14 : Running implementation.xit
+MIG: 16:41:14 : IGN:     <ModuleName>ddr</ModuleName> <==>     <ModuleName>ddr</ModuleName> 
+MIG: 16:41:14 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
