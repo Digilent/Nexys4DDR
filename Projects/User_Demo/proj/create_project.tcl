@@ -1,12 +1,13 @@
-# Run this script to create the Vivado project files in the WORKING DIRECTORY
+# Run this script to create the Vivado project files NEXT TO THIS script
 # If ::create_path global variable is set, the project is created under that path instead of the working dir
 
 if {[info exists ::create_path]} {
 	set dest_dir $::create_path
 } else {
-	set dest_dir [pwd]
+	set dest_dir [file normalize [file dirname [info script]]]
 }
 puts "INFO: Creating new project in $dest_dir"
+cd $dest_dir
 
 # Set the reference directory for source file relative paths (by default the value is script directory path)
 set proj_name "User_Demo"
